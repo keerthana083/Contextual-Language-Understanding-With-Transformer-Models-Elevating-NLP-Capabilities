@@ -1,107 +1,97 @@
-# Contextual Language Understanding with Transformer Models
+# 🤖✨ Contextual Language Understanding with Transformer Models
 
-![NLP](https://img.shields.io/badge/NLP-Transformers-blue.svg)
-![Python](https://img.shields.io/badge/Python-3.8%2B-green.svg)
-![Torch](https://img.shields.io/badge/PyTorch-DeepLearning-red.svg)
+## 🚀 Project Overview
 
-This project implements multiple Natural Language Processing (NLP) tasks using Transformer models, including Sentiment Analysis, Text Summarization, Question Answering, and a GPT-3.5-powered Chatbot.
+This project 🏗️ implements **NLP** 📖 capabilities such as:
 
----
+- 👍 **Sentiment Analysis**
+- 📝 **Text Summarization**
+- ❓ **Question Answering**
+- 💬 **AI Chatbot (GPT-3.5)**
 
-## 🚀 Features
-
-- **Sentiment Analysis** – Classifies text as positive or negative.
-- **Text Summarization** – Generates a summary of the given text.
-- **Question Answering** – Extracts an answer based on the given context.
-- **GPT-3.5 Chatbot** – Engages in conversation using OpenAI’s GPT-3.5.
+Built using **🤗 Hugging Face Transformers, 🤖 OpenAI GPT-3.5, and 🌐 React.js**, this project provides an interactive web-based 🌍 application for **Natural Language Processing** tasks.
 
 ---
 
-## 🛠️ Setup Instructions
+## 📌 Setup Instructions 🛠️
 
-### 1️⃣ Clone the Repository
+### 1️⃣ Clone the Repository 🧩
+
 ```bash
-git clone https://github.com/pavithrak17/Contextual-Language-Understanding-with-Transformer-Models.git
-cd Contextual-Language-Understanding-with-Transformer-Models
+🐙 git clone https://github.com/pavithrak17/NLP_WEB  
 ```
 
-### 2️⃣ Install Dependencies
+### 2️⃣ Install Dependencies 📦
+
 ```bash
-pip install torch transformers openai python-dotenv
+🐍 pip install -r requirements.txt   # Python dependencies 🐍
+📦 yarn install                      # React.js frontend dependencies 🎨
 ```
 
-### 3️⃣ Set Up OpenAI API Key  
-Create a `.env` file in the project directory and add your OpenAI API key:
+### 3️⃣ Configure API Keys 🔑
+
+To use **OpenAI** 🤖 and **Hugging Face** 🤗 models, create a **`.env`** file 📃:
+
+```plaintext
+OPENAI_API_KEY=🔑your_openai_api_key
+HUGGINGFACE_API_KEY=🔑your_huggingface_api_key
 ```
-OPENAI_API_KEY=your_api_key_here
-```
+
+**Where to Get API Keys?** 🗝️
+
+- 🤖 OpenAI: [Get API Key](https://beta.openai.com/signup/)
+- 🤗 Hugging Face: [Create API Token](https://huggingface.co/settings/tokens)
 
 ---
 
-## 📌 Usage
+## 🎥 Demo Video 📺
 
-Run the script:
+Watch the project 🎬 demo here:
+
+![Screenshot 2025-02-20 100819](https://github.com/user-attachments/assets/e36afc63-7cc1-4d2f-b44a-ed81ee1ad22f)
+
+[![Project Demo](https://via.placeholder.com/360)](https://drive.google.com/file/d/19D9Xbw3lVabvgubBTfP4dcl0k0TmhBpn/view?usp=drive_link)
+
+Or alternatively, you can [click here to watch the video on Google Drive](https://drive.google.com/file/d/19D9Xbw3lVabvgubBTfP4dcl0k0TmhBpn/view?usp=drive_link).
+
+---
+
+## 📌 Running the Project 🚀
+
+React.js 🎨
+
 ```bash
-python main.py
+▶️ npm run dev 
 ```
+---
 
-Select an option from the interactive menu to perform different NLP tasks.
+## 🤖 Available Features 💡
+
+| ⚡ Feature              | 🔗 Endpoint         | 📌 Description                                    |
+| -------------------- | ---------------- | ---------------------------------------------- |
+| 👍 Sentiment Analysis   | `/api/sentiment` | 📊 Classifies text as **positive**, **negative**, or **neutral**. |
+| 📝 Text Summarization   | `/api/summarize` | ✂️ Generates short **summaries** from long texts.  |
+| ❓ Question Answering   | `/api/qa`        | 🧠 Answers **questions** based on context.       |
+| 💬 AI Chatbot (GPT-3.5) | `/api/chat`      | 🤖 Provides **human-like chatbot responses**.    |
 
 ---
 
-## 📚 Dependencies
+## 📌 Deployment 🚀
 
-- `torch`
-- `transformers`
-- `openai`
-- `python-dotenv`
+To deploy on **GitHub Pages**, run:
 
----
-
-## 🏆 Example Outputs
-
-### 🔹 Sentiment Analysis:
-```
-Enter the text for Sentiment Analysis: I love this product!
-📝 Sentiment Analysis Result: {'label': 'POSITIVE', 'score': 0.99}
+```bash
+🐙 git add .
+📌 git commit -m "Initial commit"
+⬆️ git push origin main
 ```
 
-### 🔹 Text Summarization:
-```
-Enter the text for Summarization: (Long paragraph)
-📝 Summarized Text: "This is a brief summary of the given text."
-```
 
-### 🔹 Question Answering:
-```
-Enter the context (paragraph): (A passage of text)
-Enter your question: What is the main topic?
-📝 Answer: "The main topic is..."
-```
+## 📞 Contact 📩
 
-### 🔹 GPT-3.5 Chatbot:
-```
-Enter your message for GPT-3.5 Chatbot: Hello, how are you?
-🤖 GPT-3.5 Response: "I'm an AI assistant, ready to help!"
-```
+For **queries** ❓, reach out via [GitHub Issues](https://github.com/pavithrak17/NLP_WEB/issues).
 
----
+🔗 [GitHub Repository](https://github.com/pavithrak17/NLP_WEB)
 
-## 🏗️ Future Enhancements
-- Improve accuracy with fine-tuned models.
-- Extend support for additional NLP tasks.
-- Implement a graphical user interface (GUI).
-- 🔗 **Integrate with a web-based interface**: [NLP_WEB Project](https://github.com/pavithrak17/NLP_WEB)  
----
+You can check Nlp python code in this repo , https://github.com/pavithrak17/Contextual-Language-Understanding-with-Transformer-Models
 
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-## 📬 Contact
-
-📧 **Pavithra K**  
-GitHub: [@pavithrak17](https://github.com/pavithrak17)  
-LinkedIn: [Connect Here](https://www.linkedin.com/in/pavithra-k-99b09a2b2/)
